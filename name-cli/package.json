@@ -1,14 +1,11 @@
 {
 	"name": "psanchez",
 	"version": "1.1.0",
-	"private": true,
+	"description": "Get to know Pavel via `npx psanchez`",
 	"bin": {
 		"psanchez": "index.js"
 	},
-	"scripts": {
-		"commit": "git cz"
-	},
 	"dependencies": {
-		"clear-any-console": "^1.16.2"
+		"cli-welcome": "^2.2.2"
 	}
 }
