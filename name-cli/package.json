@@ -12,5 +12,12 @@
 		"pavel sanchez",
 		"pavel",
 		"sanchez"
-	]
+	],
+	"license": "MIT",
+	"main": "index.js",
+	"repository": "palebludot/node-cli",
+	"author": {
+		"name": "Pavel Sanchez",
+		"url": "https://pavelsanchez.com"
+	}
 }
