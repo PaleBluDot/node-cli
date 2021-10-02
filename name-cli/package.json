@@ -15,7 +15,8 @@
 	],
 	"license": "MIT",
 	"main": "index.js",
-	"repository": "palebludot/node-cli",
+	"repository": "https://github.com/PaleBluDot/node-cli/tree/main/name-cli",
+	"homePage": "https://github.com/PaleBluDot/node-cli/tree/main/name-cli",
 	"author": {
 		"name": "Pavel Sanchez",
 		"url": "https://pavelsanchez.com"
