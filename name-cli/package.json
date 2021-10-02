@@ -1,7 +1,14 @@
 {
 	"name": "psanchez",
 	"version": "1.0.0",
+	"private": true,
 	"bin": {
 		"psanchez": "index.js"
+	},
+	"scripts": {
+		"commit": "git cz"
+	},
+	"dependencies": {
+		"clear-any-console": "^1.16.2"
 	}
 }
