@@ -3,12 +3,15 @@
 const pkg = require("./package.json");
 const welcome = require("cli-welcome");
 const chalk = require("chalk");
+const sym = require("log-symbols");
+
 const log = console.log;
 
-const error = chalk.bold.red;
-const warning = chalk.keyword("orange");
-const success = chalk.keyword("green");
-const info = chalk.keyword("blue");
+// Alerts
+const error = chalk.bold.keyword("red");
+const warning = chalk.bold.keyword("orange");
+const success = chalk.bold.keyword("green");
+const info = chalk.bold.keyword("blue");
 
 welcome({
 	title: `Pavel Sanchez`,
@@ -32,4 +35,14 @@ ${chalk.bgYellow.hex("#121212")(" Website: ")}${chalk.hex("#a6a6a6")(
 ${chalk.bgYellow.hex("#121212")(" Github:  ")}${chalk.hex("#a6a6a6")(
 	` https://github.com/PaleBluDot `
 )}
+`);
+
+log(`
+${sym.info} ${info(`INFO:`)} I'm working no the NodeCLI.com course
+
+${sym.error} ${error(`ERROR:`)} I'm on vacation. Close the windows!
+
+${sym.warning} ${warning(`WARNING:`)} Please don't copy me.
+
+${sym.success} ${success(`SUCCESS:`)} Thanks for checking out the CLI!
 `);
