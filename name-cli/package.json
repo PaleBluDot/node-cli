@@ -1,6 +1,6 @@
 {
 	"name": "psanchez",
-	"version": "1.2.3",
+	"version": "1.2.4",
 	"description": "Get to know Pavel via `npx psanchez`",
 	"bin": {
 		"psanchez": "index.js"
