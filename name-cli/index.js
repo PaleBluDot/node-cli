@@ -8,8 +8,8 @@ welcome({
 	tagLine: "Learn some more",
 	description: pkg.description,
 	version: pkg.version,
-	bgColor: "#FADC00",
-	Color: "#000000",
+	bgColor: "#0055aa",
+	Color: "#FADC00",
 	bold: true,
 	clear: true,
 });
